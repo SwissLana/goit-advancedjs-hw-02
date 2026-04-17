@@ -22,6 +22,7 @@
 }
 .main-title {
   text-align: center;
+  padding-top: 60px;
 }
 .main-title-gradient {
   display: block;
@@ -30,6 +31,13 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+.page-title {
+  margin-top: 50px;
+  color: #3a41c7;
+  font-weight: 800;
+  font-size: 48px;
 }
 @media only screen and (min-width: 768px) {
   .main-title-gradient {
